@@ -1,28 +1,47 @@
 {
-  "name": "hello-node",
+
+  "name": "IgnoraIsso",
+
   "version": "0.0.1",
-  "description": "A simple Node app built on fastify, instantly up and running.",
-  "main": "server.js",
+
+  "description": "IgnoraIssoTambem",
+
+  "main": "index.js",
+
   "scripts": {
-    "start": "node server.js"
+
+    "start": "node index.js"
+
   },
+
   "dependencies": {
-    "fastify": "^3.22.1",
-    "fastify-formbody": "^5.1.0",
-    "fastify-static": "^4.4.2",
-    "handlebars": "^4.7.7",
-    "point-of-view": "^4.15.2"
+
+    "express": "^4.17.1"
+
   },
+
   "engines": {
+
     "node": "12.x"
+
   },
+
   "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-node"
+
+    "url": "https://glitch.com/edit/#!/hello-express"
+
   },
+
   "license": "MIT",
+
   "keywords": [
+
     "node",
+
     "glitch",
+
     "express"
+
   ]
-}
+
+} 
