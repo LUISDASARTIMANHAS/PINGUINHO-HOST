@@ -1,10 +1,5 @@
 const { Client, version } = require('discord.js');
-const { 
-    token, 
-    serverID, 
-    roleID, 
-    interval 
-} = require('./config.json')
+const {token} = require('./config.json')
 const bot = new Client();
 
 bot.on("ready", async() => {
