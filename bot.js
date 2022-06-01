@@ -9,7 +9,7 @@ const bot = new Client();
 
 bot.on("ready", async() => {
     console.log(`[ Client ] ${bot.user.tag} esta online agora!`);
-
+    
     bot.user.setPresence({
         status: 'dnd',
         activity: {
