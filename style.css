@@ -258,39 +258,9 @@ tituloyellow {
 .instructions {
   margin: 1rem auto 0;
 }
-/* Navigation grid */
-.footer {
-  display: flex;
-  justify-content: space-between;
-  margin: 1rem auto 0;
-  width: 100%;
-  font-size: 15pt;
-  text-align: center;
-  padding: 1rem 0 0.75rem 0;
-  flex-wrap: wrap;
-  border-top: 4px solid white;
-}
-.footer.links {
-  padding: 0.5rem 1rem 1.5rem;
-  white-space: nowrap;
-}
-.footer-dev {
-  display: flex;
-  justify-content: space-between;
-  margin: 1rem auto 0;
-  width: 100%;
-  color: white;
-}
 
 .divider {
   padding: 0 1rem;
-}
-
-/* Button - Add it from the README instructions */
-.PNG {
-  box-shadow: -8px 20px 20px gray;
-  width: 50%;
-  justify-content: space-between;
 }
 
 /* Interactive image */
@@ -306,68 +276,4 @@ tituloyellow {
 .dipped {
   background: green;
   transform: translateY(5px);
-}
-
-.img-click {
-  background: transparent;
-  border: none;
-  display: block;
-  width: 50%;
-  height: 50%;
-}
-.img-click:hover{
-  border: none;
-  display: block;
-  width: 45%;
-  height: 45%;
-}
-
-.popup {
-  background-image: url("https://cdn.glitch.global/1408c7d6-21de-499a-bfb3-9783b283bc8d/Janela_de_Aviso_do_Windows_(sem_texto).png?v=1651278920829");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  width: 75%;
-  height: auto;
-  padding: 30px 40px;
-  position: fixed;
-  transform: translate(-50%, -50%);
-  left: 50%;
-  top: 50%;
-  border-radius: 8px;
-  display: none;
-  font-family: "arial", sans-serif;
-  text-align: center;
-}
-.popup button {
-  display: block;
-  margin: -40px 0 20px auto;
-  background-color: transparent;
-  font-size: 30px;
-  color: white;
-  background: black;
-  border-radius: 100%;
-  width: 40px;
-  height: 40px;
-  border: none;
-  cursor: pointer;
-}
-.popup p {
-  font-size: 24px;
-  text-align: justify;
-  margin: 20px 0;
-  line-height: 25px;
-}
-.popup button:hover {
-  background: green;
-  cursor: pointer;
-  box-shadow: -8px 20px 20px white;
-  transition: all 1s ease-out;
-}
-.cabecalho {
-  position: absolute;
-  top: 0;
-  background: yellow;
-  padding: 7px;
-  width: 104%;
-  border: 5px solid black;
 }

@@ -8,13 +8,13 @@ const {
 const bot = new Client();
 
 bot.on("ready", async() => {
-    console.log(`[ Client ] ${bot.user.tag} Is Now Online`);
+    console.log(`[ Client ] ${bot.user.tag} esta online agora!`);
 
     bot.user.setPresence({
         status: 'dnd',
         activity: {
-            name: 'Rainbow Color',
-            type: 'PLAYING',
+            name: "PINGOBRAS HOST.glitch.me",
+            type: "PLAYING",
         }
     })
 })
