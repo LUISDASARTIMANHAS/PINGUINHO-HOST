@@ -8,8 +8,8 @@ bot.on("ready", async() => {
     bot.user.setPresence({
         status: 'dnd',
         activity: {
-            name: "PINGOBRAS HOST.glitch.me",
-            type: "PLAYING",
+            name: "pingobras.glitch.me" + new Date().getFullYear(),
+            type: "LISTENING",
         }
     })
 })
